@@ -1,0 +1,216 @@
+
+Dummy_leg_guide.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Dummy/Dummy_arm_lower_far
+  rotate: false
+  xy: 654, 309
+  size: 72, 114
+  orig: 72, 114
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_arm_lower_near
+  rotate: false
+  xy: 573, 294
+  size: 79, 126
+  orig: 79, 126
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_arm_upper_far
+  rotate: false
+  xy: 1926, 835
+  size: 99, 180
+  orig: 99, 180
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_arm_upper_near
+  rotate: false
+  xy: 472, 240
+  size: 99, 180
+  orig: 99, 180
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_foot_far_1
+  rotate: false
+  xy: 1643, 507
+  size: 167, 81
+  orig: 167, 81
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_foot_far_2_bent
+  rotate: false
+  xy: 1522, 606
+  size: 157, 109
+  orig: 157, 109
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_foot_near_1
+  rotate: false
+  xy: 1681, 590
+  size: 168, 80
+  orig: 168, 80
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_foot_near_2_bent
+  rotate: true
+  xy: 1532, 447
+  size: 157, 109
+  orig: 157, 109
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_gun
+  rotate: false
+  xy: 1255, 855
+  size: 402, 160
+  orig: 402, 160
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_gun_shoot
+  rotate: false
+  xy: 2, 243
+  size: 468, 177
+  orig: 468, 177
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_hand_1_fistBack
+  rotate: false
+  xy: 728, 350
+  size: 94, 73
+  orig: 94, 73
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_hand_2_fistPalm
+  rotate: false
+  xy: 824, 346
+  size: 83, 77
+  orig: 83, 77
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_hand_3_open
+  rotate: false
+  xy: 1926, 723
+  size: 113, 110
+  orig: 113, 110
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_head_1
+  rotate: false
+  xy: 1255, 588
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_head_2_injured
+  rotate: false
+  xy: 1187, 321
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_head_3_happy
+  rotate: true
+  xy: 916, 347
+  size: 265, 269
+  orig: 265, 269
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_head_4_wideEyes
+  rotate: false
+  xy: 1659, 750
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_lower_far_guide
+  rotate: false
+  xy: 1454, 398
+  size: 76, 188
+  orig: 76, 188
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_lower_near_2_guide
+  rotate: false
+  xy: 1454, 398
+  size: 76, 188
+  orig: 76, 188
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_lower_near_1_guide
+  rotate: true
+  xy: 1681, 672
+  size: 76, 188
+  orig: 76, 188
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_upper_far
+  rotate: true
+  xy: 1643, 429
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_upper_near
+  rotate: true
+  xy: 1643, 429
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_neck
+  rotate: false
+  xy: 2, 2
+  size: 70, 62
+  orig: 70, 62
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_pistol
+  rotate: false
+  xy: 2, 66
+  size: 231, 175
+  orig: 231, 175
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_pistol_shoot
+  rotate: false
+  xy: 617, 425
+  size: 297, 187
+  orig: 297, 187
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_sword_1
+  rotate: true
+  xy: 617, 614
+  size: 72, 626
+  orig: 72, 626
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_sword_2_swing
+  rotate: true
+  xy: 617, 688
+  size: 327, 636
+  orig: 327, 636
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_sword_3_bigSwing
+  rotate: false
+  xy: 2, 422
+  size: 613, 593
+  orig: 613, 593
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_torso
+  rotate: true
+  xy: 235, 72
+  size: 169, 181
+  orig: 169, 181
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_waist
+  rotate: false
+  xy: 1522, 717
+  size: 135, 136
+  orig: 135, 136
+  offset: 0, 0
+  index: -1

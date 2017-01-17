@@ -1,0 +1,265 @@
+
+YoungBuck.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+YoungBuck/YoungBuck_arm_lower_far
+  rotate: false
+  xy: 1280, 1926
+  size: 70, 111
+  orig: 259, 209
+  offset: 91, 50
+  index: -1
+YoungBuck/YoungBuck_arm_lower_near
+  rotate: false
+  xy: 1674, 1541
+  size: 77, 125
+  orig: 258, 208
+  offset: 87, 43
+  index: -1
+YoungBuck/YoungBuck_arm_upper_far
+  rotate: true
+  xy: 315, 768
+  size: 101, 180
+  orig: 299, 282
+  offset: 97, 50
+  index: -1
+YoungBuck/YoungBuck_arm_upper_near
+  rotate: false
+  xy: 374, 586
+  size: 102, 180
+  orig: 299, 282
+  offset: 97, 50
+  index: -1
+YoungBuck/YoungBuck_foot_far_1
+  rotate: true
+  xy: 1295, 1363
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+YoungBuck/YoungBuck_foot_near_1
+  rotate: true
+  xy: 1295, 1363
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+YoungBuck/YoungBuck_foot_far_2_bent
+  rotate: false
+  xy: 1379, 1360
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+YoungBuck/YoungBuck_foot_near_2_bent
+  rotate: false
+  xy: 1379, 1360
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+YoungBuck/YoungBuck_gun
+  rotate: true
+  xy: 657, 1149
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+YoungBuck/YoungBuck_gun_shoot
+  rotate: true
+  xy: 478, 940
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+YoungBuck/YoungBuck_hand_far_1_fistBack
+  rotate: true
+  xy: 764, 1034
+  size: 113, 89
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+YoungBuck/YoungBuck_hand_far_2_fistPalm
+  rotate: false
+  xy: 1935, 1575
+  size: 101, 93
+  orig: 203, 160
+  offset: 52, 39
+  index: -1
+YoungBuck/YoungBuck_hand_far_3_open
+  rotate: true
+  xy: 1549, 1354
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+YoungBuck/YoungBuck_hand_near_3_open
+  rotate: true
+  xy: 1549, 1354
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+YoungBuck/YoungBuck_hand_near_1_fistBack
+  rotate: true
+  xy: 855, 1058
+  size: 113, 105
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+YoungBuck/YoungBuck_hand_near_2_fistPalm
+  rotate: false
+  xy: 764, 939
+  size: 101, 93
+  orig: 203, 160
+  offset: 52, 39
+  index: -1
+YoungBuck/YoungBuck_head_1
+  rotate: false
+  xy: 613, 1554
+  size: 393, 370
+  orig: 543, 543
+  offset: 93, 33
+  index: -1
+YoungBuck/YoungBuck_head_2_injured
+  rotate: true
+  xy: 2, 373
+  size: 393, 370
+  orig: 543, 543
+  offset: 93, 33
+  index: -1
+YoungBuck/YoungBuck_head_3_happy
+  rotate: false
+  xy: 2, 2
+  size: 392, 369
+  orig: 543, 543
+  offset: 92, 34
+  index: -1
+YoungBuck/YoungBuck_head_4_wideEyes
+  rotate: true
+  xy: 1008, 1533
+  size: 391, 369
+  orig: 543, 543
+  offset: 93, 34
+  index: -1
+YoungBuck/YoungBuck_head_5_sad
+  rotate: false
+  xy: 1379, 1668
+  size: 391, 369
+  orig: 543, 543
+  offset: 92, 34
+  index: -1
+YoungBuck/YoungBuck_leg_lower_far
+  rotate: false
+  xy: 1935, 1842
+  size: 105, 195
+  orig: 194, 325
+  offset: 43, 70
+  index: -1
+YoungBuck/YoungBuck_leg_lower_near_1
+  rotate: false
+  xy: 1186, 1353
+  size: 107, 178
+  orig: 194, 325
+  offset: 44, 75
+  index: -1
+YoungBuck/YoungBuck_leg_lower_near_2
+  rotate: false
+  xy: 657, 952
+  size: 105, 195
+  orig: 194, 325
+  offset: 43, 70
+  index: -1
+YoungBuck/YoungBuck_leg_upper_far
+  rotate: false
+  xy: 374, 414
+  size: 98, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+YoungBuck/YoungBuck_leg_upper_near
+  rotate: false
+  xy: 1935, 1670
+  size: 99, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+YoungBuck/YoungBuck_machineGun
+  rotate: true
+  xy: 1772, 1600
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+YoungBuck/YoungBuck_machineGun_clip
+  rotate: false
+  xy: 867, 964
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+YoungBuck/YoungBuck_machineGun_shoot
+  rotate: true
+  xy: 315, 871
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+YoungBuck/YoungBuck_neck
+  rotate: false
+  xy: 1674, 1479
+  size: 69, 60
+  orig: 130, 110
+  offset: 31, 27
+  index: -1
+YoungBuck/YoungBuck_pistol
+  rotate: true
+  xy: 819, 1320
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+YoungBuck/YoungBuck_pistol_shoot
+  rotate: false
+  xy: 1379, 1474
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+YoungBuck/YoungBuck_sword_1
+  rotate: true
+  xy: 613, 1926
+  size: 111, 665
+  orig: 512, 880
+  offset: 196, 104
+  index: -1
+YoungBuck/YoungBuck_sword_2_swing
+  rotate: false
+  xy: 2, 768
+  size: 311, 641
+  orig: 770, 878
+  offset: 252, 106
+  index: -1
+YoungBuck/YoungBuck_sword_3_bigSwing
+  rotate: false
+  xy: 2, 1411
+  size: 609, 626
+  orig: 1014, 879
+  offset: 198, 107
+  index: -1
+YoungBuck/YoungBuck_torso
+  rotate: false
+  xy: 996, 1335
+  size: 188, 196
+  orig: 512, 452
+  offset: 164, 105
+  index: -1
+YoungBuck/YoungBuck_waist
+  rotate: false
+  xy: 819, 1173
+  size: 136, 145
+  orig: 283, 216
+  offset: 75, 37
+  index: -1

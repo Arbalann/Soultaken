@@ -1,0 +1,244 @@
+
+TurboTed.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TurboTed/TurboTed_arm_lower_far
+  rotate: true
+  xy: 901, 185
+  size: 86, 122
+  orig: 86, 122
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_arm_lower_near
+  rotate: true
+  xy: 981, 97
+  size: 86, 122
+  orig: 86, 122
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_arm_upper_far
+  rotate: false
+  xy: 406, 84
+  size: 133, 180
+  orig: 133, 180
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_arm_upper_near
+  rotate: true
+  xy: 1056, 185
+  size: 132, 182
+  orig: 132, 182
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_foot_far_1
+  rotate: false
+  xy: 2, 14
+  size: 181, 88
+  orig: 181, 88
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_foot_far_2_bent
+  rotate: false
+  xy: 541, 93
+  size: 179, 108
+  orig: 179, 108
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_foot_near_2_bent
+  rotate: false
+  xy: 541, 93
+  size: 179, 108
+  orig: 179, 108
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_foot_near_1
+  rotate: false
+  xy: 185, 14
+  size: 181, 88
+  orig: 181, 88
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_gun
+  rotate: false
+  xy: 2, 104
+  size: 402, 160
+  orig: 402, 160
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_gun_shoot
+  rotate: false
+  xy: 1255, 845
+  size: 468, 177
+  orig: 468, 177
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_hand_1_fistBack
+  rotate: false
+  xy: 1105, 96
+  size: 112, 87
+  orig: 112, 87
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_hand_2_fistPalm
+  rotate: false
+  xy: 1071, 3
+  size: 99, 91
+  orig: 99, 91
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_hand_3_open
+  rotate: true
+  xy: 722, 63
+  size: 138, 140
+  orig: 138, 140
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_head_1
+  rotate: false
+  xy: 1255, 590
+  size: 282, 253
+  orig: 282, 253
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_head_2_injured
+  rotate: false
+  xy: 1716, 570
+  size: 282, 263
+  orig: 282, 263
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_head_3_happy
+  rotate: false
+  xy: 1251, 325
+  size: 282, 263
+  orig: 282, 263
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_head_4_wideEyes
+  rotate: false
+  xy: 1535, 315
+  size: 282, 253
+  orig: 282, 253
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_head_5_sad
+  rotate: false
+  xy: 617, 203
+  size: 282, 253
+  orig: 282, 253
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_leg_lower_far
+  rotate: true
+  xy: 1056, 470
+  size: 149, 193
+  orig: 149, 193
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_leg_lower_near_1
+  rotate: false
+  xy: 1819, 367
+  size: 149, 201
+  orig: 149, 201
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_leg_lower_near_2
+  rotate: true
+  xy: 1056, 319
+  size: 149, 193
+  orig: 149, 193
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_leg_upper_far
+  rotate: false
+  xy: 1970, 405
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_leg_upper_near
+  rotate: false
+  xy: 1970, 405
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_machineGun
+  rotate: false
+  xy: 617, 458
+  size: 437, 161
+  orig: 437, 161
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_machineGun_clip
+  rotate: false
+  xy: 981, 2
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_machineGun_shoot
+  rotate: false
+  xy: 2, 266
+  size: 536, 161
+  orig: 536, 161
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_neck
+  rotate: true
+  xy: 540, 342
+  size: 85, 68
+  orig: 85, 68
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_pistol
+  rotate: true
+  xy: 1539, 612
+  size: 231, 175
+  orig: 231, 175
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_pistol_shoot
+  rotate: false
+  xy: 1725, 835
+  size: 297, 187
+  orig: 297, 187
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_sword_1
+  rotate: true
+  xy: 617, 621
+  size: 72, 626
+  orig: 72, 626
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_sword_2_swing
+  rotate: true
+  xy: 617, 695
+  size: 327, 636
+  orig: 327, 636
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_sword_3_bigSwing
+  rotate: false
+  xy: 2, 429
+  size: 613, 593
+  orig: 613, 593
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_torso
+  rotate: false
+  xy: 901, 273
+  size: 153, 183
+  orig: 153, 183
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_waist
+  rotate: false
+  xy: 864, 64
+  size: 115, 119
+  orig: 115, 119
+  offset: 0, 0
+  index: -1

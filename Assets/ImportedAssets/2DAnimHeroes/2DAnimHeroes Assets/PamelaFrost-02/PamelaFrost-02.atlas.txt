@@ -1,0 +1,265 @@
+
+PamelaFrost-02.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PamelaFrost-02/PamelaFrost-02_arm_lower_far
+  rotate: true
+  xy: 1139, 1465
+  size: 60, 112
+  orig: 259, 209
+  offset: 97, 50
+  index: -1
+PamelaFrost-02/PamelaFrost-02_arm_lower_near
+  rotate: true
+  xy: 1253, 1527
+  size: 69, 127
+  orig: 258, 208
+  offset: 93, 41
+  index: -1
+PamelaFrost-02/PamelaFrost-02_arm_upper_far
+  rotate: false
+  xy: 568, 826
+  size: 71, 167
+  orig: 299, 282
+  offset: 112, 53
+  index: -1
+PamelaFrost-02/PamelaFrost-02_arm_upper_near
+  rotate: true
+  xy: 641, 916
+  size: 71, 167
+  orig: 299, 282
+  offset: 112, 53
+  index: -1
+PamelaFrost-02/PamelaFrost-02_foot_far_1
+  rotate: false
+  xy: 1089, 1527
+  size: 162, 82
+  orig: 324, 176
+  offset: 79, 46
+  index: -1
+PamelaFrost-02/PamelaFrost-02_foot_near_1
+  rotate: false
+  xy: 1089, 1527
+  size: 162, 82
+  orig: 324, 176
+  offset: 79, 46
+  index: -1
+PamelaFrost-02/PamelaFrost-02_foot_far_2_bent
+  rotate: false
+  xy: 1642, 1598
+  size: 161, 108
+  orig: 305, 195
+  offset: 62, 38
+  index: -1
+PamelaFrost-02/PamelaFrost-02_foot_near_2_bent
+  rotate: false
+  xy: 1642, 1598
+  size: 161, 108
+  orig: 305, 195
+  offset: 62, 38
+  index: -1
+PamelaFrost-02/PamelaFrost-02_gun
+  rotate: false
+  xy: 2, 2
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+PamelaFrost-02/PamelaFrost-02_gun_shoot
+  rotate: false
+  xy: 618, 1529
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+PamelaFrost-02/PamelaFrost-02_hand_far_1_fistBack
+  rotate: false
+  xy: 1914, 1622
+  size: 104, 89
+  orig: 203, 160
+  offset: 52, 46
+  index: -1
+PamelaFrost-02/PamelaFrost-02_hand_far_2_fistPalm
+  rotate: true
+  xy: 1048, 1340
+  size: 91, 84
+  orig: 203, 160
+  offset: 57, 43
+  index: -1
+PamelaFrost-02/PamelaFrost-02_hand_near_2_fistPalm
+  rotate: true
+  xy: 1048, 1340
+  size: 91, 84
+  orig: 203, 160
+  offset: 57, 43
+  index: -1
+PamelaFrost-02/PamelaFrost-02_hand_far_3_open
+  rotate: false
+  xy: 1805, 1593
+  size: 107, 113
+  orig: 233, 220
+  offset: 74, 55
+  index: -1
+PamelaFrost-02/PamelaFrost-02_hand_near_1_fistBack
+  rotate: true
+  xy: 787, 796
+  size: 104, 88
+  orig: 203, 160
+  offset: 52, 47
+  index: -1
+PamelaFrost-02/PamelaFrost-02_hand_near_3_open
+  rotate: false
+  xy: 1913, 1713
+  size: 107, 113
+  orig: 233, 220
+  offset: 74, 55
+  index: -1
+PamelaFrost-02/PamelaFrost-02_head_1
+  rotate: false
+  xy: 618, 1708
+  size: 430, 311
+  orig: 543, 543
+  offset: 67, 45
+  index: -1
+PamelaFrost-02/PamelaFrost-02_head_2_injured
+  rotate: true
+  xy: 2, 358
+  size: 429, 311
+  orig: 543, 543
+  offset: 70, 45
+  index: -1
+PamelaFrost-02/PamelaFrost-02_head_3_happy
+  rotate: false
+  xy: 1050, 1709
+  size: 430, 310
+  orig: 543, 543
+  offset: 75, 43
+  index: -1
+PamelaFrost-02/PamelaFrost-02_head_4_wideEyes
+  rotate: false
+  xy: 1482, 1708
+  size: 429, 311
+  orig: 543, 543
+  offset: 68, 45
+  index: -1
+PamelaFrost-02/PamelaFrost-02_head_5_sad
+  rotate: true
+  xy: 334, 995
+  size: 429, 311
+  orig: 543, 543
+  offset: 67, 50
+  index: -1
+PamelaFrost-02/PamelaFrost-02_leg_lower_far
+  rotate: true
+  xy: 1089, 1611
+  size: 96, 191
+  orig: 194, 325
+  offset: 53, 65
+  index: -1
+PamelaFrost-02/PamelaFrost-02_leg_lower_near_1
+  rotate: false
+  xy: 297, 164
+  size: 89, 192
+  orig: 194, 325
+  offset: 53, 67
+  index: -1
+PamelaFrost-02/PamelaFrost-02_leg_lower_near_2
+  rotate: false
+  xy: 1913, 1828
+  size: 97, 191
+  orig: 194, 325
+  offset: 52, 65
+  index: -1
+PamelaFrost-02/PamelaFrost-02_leg_upper_far
+  rotate: true
+  xy: 1282, 1598
+  size: 109, 178
+  orig: 177, 271
+  offset: 27, 55
+  index: -1
+PamelaFrost-02/PamelaFrost-02_leg_upper_near
+  rotate: true
+  xy: 1462, 1597
+  size: 109, 178
+  orig: 177, 271
+  offset: 27, 55
+  index: -1
+PamelaFrost-02/PamelaFrost-02_machineGun
+  rotate: true
+  xy: 885, 1090
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+PamelaFrost-02/PamelaFrost-02_machineGun_clip
+  rotate: false
+  xy: 1048, 1433
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+PamelaFrost-02/PamelaFrost-02_machineGun_shoot
+  rotate: true
+  xy: 647, 989
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+PamelaFrost-02/PamelaFrost-02_neck
+  rotate: false
+  xy: 1382, 1528
+  size: 61, 68
+  orig: 130, 110
+  offset: 36, 25
+  index: -1
+PamelaFrost-02/PamelaFrost-02_pistol
+  rotate: false
+  xy: 334, 818
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+PamelaFrost-02/PamelaFrost-02_pistol_shoot
+  rotate: false
+  xy: 2, 164
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+PamelaFrost-02/PamelaFrost-02_sword_1
+  rotate: false
+  xy: 810, 902
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+PamelaFrost-02/PamelaFrost-02_sword_2_swing
+  rotate: false
+  xy: 2, 789
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+PamelaFrost-02/PamelaFrost-02_sword_3_bigSwing
+  rotate: false
+  xy: 2, 1426
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+PamelaFrost-02/PamelaFrost-02_torso
+  rotate: false
+  xy: 885, 908
+  size: 161, 180
+  orig: 512, 452
+  offset: 187, 121
+  index: -1
+PamelaFrost-02/PamelaFrost-02_waist
+  rotate: false
+  xy: 641, 801
+  size: 144, 113
+  orig: 283, 216
+  offset: 64, 54
+  index: -1

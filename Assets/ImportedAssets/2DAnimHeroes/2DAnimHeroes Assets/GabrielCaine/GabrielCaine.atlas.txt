@@ -1,0 +1,265 @@
+
+GabrielCaine.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GabrielCaine/GabrielCaine_arm_lower_far
+  rotate: false
+  xy: 542, 316
+  size: 70, 111
+  orig: 259, 209
+  offset: 91, 50
+  index: -1
+GabrielCaine/GabrielCaine_arm_lower_near
+  rotate: true
+  xy: 298, 24
+  size: 77, 125
+  orig: 258, 208
+  offset: 87, 43
+  index: -1
+GabrielCaine/GabrielCaine_arm_upper_far
+  rotate: true
+  xy: 117, 3
+  size: 98, 179
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+GabrielCaine/GabrielCaine_arm_upper_near
+  rotate: false
+  xy: 686, 97
+  size: 98, 179
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+GabrielCaine/GabrielCaine_foot_far_1
+  rotate: false
+  xy: 967, 228
+  size: 187, 83
+  orig: 324, 176
+  offset: 74, 44
+  index: -1
+GabrielCaine/GabrielCaine_foot_near_1
+  rotate: false
+  xy: 967, 228
+  size: 187, 83
+  orig: 324, 176
+  offset: 74, 44
+  index: -1
+GabrielCaine/GabrielCaine_foot_far_2_bent
+  rotate: true
+  xy: 441, 83
+  size: 181, 105
+  orig: 305, 195
+  offset: 59, 42
+  index: -1
+GabrielCaine/GabrielCaine_foot_near_2_bent
+  rotate: true
+  xy: 441, 83
+  size: 181, 105
+  orig: 305, 195
+  offset: 59, 42
+  index: -1
+GabrielCaine/GabrielCaine_gun
+  rotate: false
+  xy: 618, 455
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+GabrielCaine/GabrielCaine_gun_shoot
+  rotate: false
+  xy: 1255, 845
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+GabrielCaine/GabrielCaine_hand_far_1_fistBack
+  rotate: false
+  xy: 1069, 138
+  size: 101, 88
+  orig: 203, 160
+  offset: 54, 46
+  index: -1
+GabrielCaine/GabrielCaine_hand_far_2_fistPalm
+  rotate: false
+  xy: 548, 38
+  size: 93, 91
+  orig: 203, 160
+  offset: 56, 43
+  index: -1
+GabrielCaine/GabrielCaine_hand_far_3_open
+  rotate: false
+  xy: 786, 142
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+GabrielCaine/GabrielCaine_hand_near_3_open
+  rotate: false
+  xy: 786, 142
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+GabrielCaine/GabrielCaine_hand_near_1_fistBack
+  rotate: false
+  xy: 2, 2
+  size: 113, 99
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+GabrielCaine/GabrielCaine_hand_near_2_fistPalm
+  rotate: true
+  xy: 643, 2
+  size: 93, 90
+  orig: 203, 160
+  offset: 56, 43
+  index: -1
+GabrielCaine/GabrielCaine_head_1
+  rotate: true
+  xy: 1255, 593
+  size: 250, 281
+  orig: 543, 543
+  offset: 147, 47
+  index: -1
+GabrielCaine/GabrielCaine_head_2_injured
+  rotate: true
+  xy: 1717, 573
+  size: 255, 281
+  orig: 543, 543
+  offset: 148, 49
+  index: -1
+GabrielCaine/GabrielCaine_head_3_happy
+  rotate: true
+  xy: 1219, 341
+  size: 250, 281
+  orig: 543, 543
+  offset: 146, 44
+  index: -1
+GabrielCaine/GabrielCaine_head_4_wideEyes
+  rotate: false
+  xy: 1502, 289
+  size: 252, 281
+  orig: 543, 543
+  offset: 143, 39
+  index: -1
+GabrielCaine/GabrielCaine_head_5_sad
+  rotate: false
+  xy: 1756, 290
+  size: 250, 281
+  orig: 543, 543
+  offset: 148, 39
+  index: -1
+GabrielCaine/GabrielCaine_leg_lower_far
+  rotate: false
+  xy: 852, 269
+  size: 113, 184
+  orig: 194, 325
+  offset: 32, 69
+  index: -1
+GabrielCaine/GabrielCaine_leg_lower_near_2
+  rotate: false
+  xy: 852, 269
+  size: 113, 184
+  orig: 194, 325
+  offset: 32, 69
+  index: -1
+GabrielCaine/GabrielCaine_leg_lower_near_1
+  rotate: true
+  xy: 967, 313
+  size: 113, 192
+  orig: 194, 325
+  offset: 40, 64
+  index: -1
+GabrielCaine/GabrielCaine_leg_upper_far
+  rotate: false
+  xy: 1538, 572
+  size: 177, 271
+  orig: 177, 271
+  offset: 0, 0
+  index: -1
+GabrielCaine/GabrielCaine_leg_upper_near
+  rotate: true
+  xy: 906, 148
+  size: 78, 161
+  orig: 177, 271
+  offset: 49, 53
+  index: -1
+GabrielCaine/GabrielCaine_machineGun
+  rotate: false
+  xy: 2, 103
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+GabrielCaine/GabrielCaine_machineGun_clip
+  rotate: false
+  xy: 735, 3
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+GabrielCaine/GabrielCaine_machineGun_shoot
+  rotate: false
+  xy: 2, 266
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+GabrielCaine/GabrielCaine_neck
+  rotate: false
+  xy: 425, 21
+  size: 69, 60
+  orig: 130, 110
+  offset: 31, 27
+  index: -1
+GabrielCaine/GabrielCaine_pistol
+  rotate: false
+  xy: 618, 278
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+GabrielCaine/GabrielCaine_pistol_shoot
+  rotate: false
+  xy: 1726, 830
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+GabrielCaine/GabrielCaine_sword_1
+  rotate: true
+  xy: 618, 617
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+GabrielCaine/GabrielCaine_sword_2_swing
+  rotate: true
+  xy: 618, 692
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+GabrielCaine/GabrielCaine_sword_3_bigSwing
+  rotate: false
+  xy: 2, 429
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+GabrielCaine/GabrielCaine_torso
+  rotate: true
+  xy: 1023, 428
+  size: 187, 194
+  orig: 512, 452
+  offset: 165, 111
+  index: -1
+GabrielCaine/GabrielCaine_waist
+  rotate: false
+  xy: 548, 131
+  size: 136, 145
+  orig: 283, 216
+  offset: 75, 37
+  index: -1

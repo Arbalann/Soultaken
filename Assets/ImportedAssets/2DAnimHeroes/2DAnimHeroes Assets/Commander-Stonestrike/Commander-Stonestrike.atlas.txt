@@ -1,0 +1,265 @@
+
+Commander-Stonestrike.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Commander-Stonestrike/Commander-Stonestrike_arm_lower_far
+  rotate: true
+  xy: 1754, 104
+  size: 43, 106
+  orig: 255, 205
+  offset: 100, 59
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_arm_lower_near
+  rotate: false
+  xy: 1984, 91
+  size: 56, 121
+  orig: 56, 121
+  offset: 0, 0
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_arm_upper_far
+  rotate: true
+  xy: 1115, 19
+  size: 66, 158
+  orig: 295, 278
+  offset: 110, 58
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_arm_upper_near
+  rotate: true
+  xy: 954, 19
+  size: 66, 159
+  orig: 295, 278
+  offset: 109, 55
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_foot_far_1
+  rotate: false
+  xy: 673, 13
+  size: 121, 62
+  orig: 320, 172
+  offset: 99, 53
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_foot_near_1
+  rotate: false
+  xy: 673, 13
+  size: 121, 62
+  orig: 320, 172
+  offset: 99, 53
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_foot_far_2_bent
+  rotate: false
+  xy: 401, 2
+  size: 112, 73
+  orig: 301, 191
+  offset: 59, 59
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_foot_near_2_bent
+  rotate: false
+  xy: 401, 2
+  size: 112, 73
+  orig: 301, 191
+  offset: 59, 59
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_gun
+  rotate: false
+  xy: 1495, 289
+  size: 507, 216
+  orig: 604, 421
+  offset: 66, 51
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_gun_shoot
+  rotate: false
+  xy: 956, 289
+  size: 537, 216
+  orig: 604, 421
+  offset: 65, 51
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_hand_far_1_fistBack
+  rotate: false
+  xy: 1984, 214
+  size: 62, 73
+  orig: 199, 156
+  offset: 65, 47
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_hand_near_1_fistBack
+  rotate: false
+  xy: 1984, 214
+  size: 62, 73
+  orig: 199, 156
+  offset: 65, 47
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_hand_far_2_fistPalm
+  rotate: false
+  xy: 878, 19
+  size: 55, 51
+  orig: 199, 156
+  offset: 66, 64
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_hand_near_2_fistPalm
+  rotate: false
+  xy: 878, 19
+  size: 55, 51
+  orig: 199, 156
+  offset: 66, 64
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_hand_far_3_open
+  rotate: false
+  xy: 486, 285
+  size: 233, 220
+  orig: 233, 220
+  offset: 0, 0
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_hand_near_3_open
+  rotate: false
+  xy: 721, 285
+  size: 233, 220
+  orig: 233, 220
+  offset: 0, 0
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_head_1
+  rotate: true
+  xy: 1480, 32
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_head_5_sad
+  rotate: true
+  xy: 1480, 32
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_head_3_happy
+  rotate: true
+  xy: 1480, 32
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_head_4_wideEyes
+  rotate: true
+  xy: 1480, 32
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_head_2_injured
+  rotate: true
+  xy: 1480, 32
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_leg_lower_far
+  rotate: true
+  xy: 1275, 6
+  size: 63, 203
+  orig: 190, 321
+  offset: 62, 49
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_leg_lower_near_2
+  rotate: true
+  xy: 1275, 6
+  size: 63, 203
+  orig: 190, 321
+  offset: 62, 49
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_leg_lower_near_1
+  rotate: true
+  xy: 1278, 71
+  size: 65, 194
+  orig: 190, 321
+  offset: 68, 58
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_leg_upper_far
+  rotate: true
+  xy: 515, 3
+  size: 72, 156
+  orig: 173, 267
+  offset: 52, 58
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_leg_upper_near
+  rotate: true
+  xy: 806, 72
+  size: 66, 146
+  orig: 172, 267
+  offset: 48, 55
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_machineGun
+  rotate: false
+  xy: 486, 145
+  size: 339, 138
+  orig: 656, 420
+  offset: 112, 93
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_machineGun_clip
+  rotate: true
+  xy: 796, 5
+  size: 65, 80
+  orig: 234, 206
+  offset: 75, 54
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_machineGun_shoot
+  rotate: false
+  xy: 1480, 149
+  size: 502, 138
+  orig: 656, 420
+  offset: 112, 93
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_neck
+  rotate: false
+  xy: 827, 140
+  size: 123, 143
+  orig: 170, 227
+  offset: 26, 81
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_pistol
+  rotate: false
+  xy: 233, 6
+  size: 166, 90
+  orig: 457, 319
+  offset: 94, 58
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_pistol_shoot
+  rotate: false
+  xy: 2, 4
+  size: 229, 92
+  orig: 457, 319
+  offset: 94, 56
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_sword_1
+  rotate: true
+  xy: 486, 77
+  size: 66, 318
+  orig: 508, 875
+  offset: 240, 106
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_sword_2_swing
+  rotate: true
+  xy: 956, 87
+  size: 200, 320
+  orig: 767, 873
+  offset: 364, 104
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_sword_3_bigSwing
+  rotate: false
+  xy: 2, 98
+  size: 482, 407
+  orig: 1010, 875
+  offset: 331, 84
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_torso
+  rotate: true
+  xy: 1278, 138
+  size: 149, 200
+  orig: 149, 200
+  offset: 0, 0
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_waist
+  rotate: true
+  xy: 1646, 42
+  size: 105, 106
+  orig: 279, 212
+  offset: 90, 47
+  index: -1

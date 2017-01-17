@@ -1,0 +1,265 @@
+
+StumpyPete.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+StumpyPete/StumpyPete_arm_lower_far
+  rotate: false
+  xy: 1076, 985
+  size: 83, 125
+  orig: 259, 209
+  offset: 83, 39
+  index: -1
+StumpyPete/StumpyPete_arm_lower_near
+  rotate: false
+  xy: 1953, 1560
+  size: 84, 125
+  orig: 258, 208
+  offset: 82, 40
+  index: -1
+StumpyPete/StumpyPete_arm_upper_far
+  rotate: false
+  xy: 1843, 1556
+  size: 108, 169
+  orig: 299, 282
+  offset: 86, 62
+  index: -1
+StumpyPete/StumpyPete_arm_upper_near
+  rotate: true
+  xy: 1603, 1405
+  size: 108, 169
+  orig: 299, 282
+  offset: 86, 62
+  index: -1
+StumpyPete/StumpyPete_foot_far_1
+  rotate: true
+  xy: 489, 632
+  size: 147, 71
+  orig: 324, 176
+  offset: 82, 43
+  index: -1
+StumpyPete/StumpyPete_foot_far_2_bent
+  rotate: true
+  xy: 1953, 1687
+  size: 141, 93
+  orig: 305, 195
+  offset: 83, 43
+  index: -1
+StumpyPete/StumpyPete_foot_near_1
+  rotate: false
+  xy: 580, 875
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+StumpyPete/StumpyPete_foot_near_2_bent
+  rotate: false
+  xy: 580, 875
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+StumpyPete/StumpyPete_gun
+  rotate: true
+  xy: 312, 397
+  size: 371, 175
+  orig: 608, 425
+  offset: 140, 109
+  index: -1
+StumpyPete/StumpyPete_gun_shoot
+  rotate: false
+  xy: 607, 1430
+  size: 427, 180
+  orig: 608, 425
+  offset: 140, 109
+  index: -1
+StumpyPete/StumpyPete_hand_far_1_fistBack
+  rotate: true
+  xy: 489, 425
+  size: 101, 90
+  orig: 203, 160
+  offset: 52, 46
+  index: -1
+StumpyPete/StumpyPete_hand_far_2_fistPalm
+  rotate: true
+  xy: 489, 528
+  size: 102, 84
+  orig: 203, 160
+  offset: 55, 46
+  index: -1
+StumpyPete/StumpyPete_hand_near_2_fistPalm
+  rotate: true
+  xy: 489, 528
+  size: 102, 84
+  orig: 203, 160
+  offset: 55, 46
+  index: -1
+StumpyPete/StumpyPete_hand_far_3_open
+  rotate: false
+  xy: 1076, 1112
+  size: 107, 116
+  orig: 233, 220
+  offset: 70, 54
+  index: -1
+StumpyPete/StumpyPete_hand_near_3_open
+  rotate: false
+  xy: 1076, 1112
+  size: 107, 116
+  orig: 233, 220
+  offset: 70, 54
+  index: -1
+StumpyPete/StumpyPete_hand_near_1_fistBack
+  rotate: false
+  xy: 583, 785
+  size: 101, 91
+  orig: 203, 160
+  offset: 52, 46
+  index: -1
+StumpyPete/StumpyPete_head_1
+  rotate: false
+  xy: 1269, 1449
+  size: 332, 277
+  orig: 543, 543
+  offset: 101, 24
+  index: -1
+StumpyPete/StumpyPete_head_2_injured
+  rotate: false
+  xy: 580, 1154
+  size: 338, 274
+  orig: 543, 543
+  offset: 101, 27
+  index: -1
+StumpyPete/StumpyPete_head_3_happy
+  rotate: false
+  xy: 1269, 1728
+  size: 337, 308
+  orig: 543, 543
+  offset: 100, 5
+  index: -1
+StumpyPete/StumpyPete_head_4_wideEyes
+  rotate: false
+  xy: 580, 878
+  size: 338, 274
+  orig: 543, 543
+  offset: 101, 27
+  index: -1
+StumpyPete/StumpyPete_head_5_sad
+  rotate: false
+  xy: 1608, 1727
+  size: 336, 309
+  orig: 543, 543
+  offset: 101, 6
+  index: -1
+StumpyPete/StumpyPete_leg_lower_far
+  rotate: false
+  xy: 312, 227
+  size: 127, 168
+  orig: 194, 325
+  offset: 45, 79
+  index: -1
+StumpyPete/StumpyPete_leg_lower_near_1
+  rotate: false
+  xy: 920, 1205
+  size: 107, 223
+  orig: 194, 325
+  offset: 44, 30
+  index: -1
+StumpyPete/StumpyPete_leg_lower_near_2
+  rotate: true
+  xy: 1029, 1306
+  size: 107, 223
+  orig: 194, 325
+  offset: 44, 30
+  index: -1
+StumpyPete/StumpyPete_leg_upper_far
+  rotate: true
+  xy: 1029, 1230
+  size: 74, 153
+  orig: 177, 271
+  offset: 50, 52
+  index: -1
+StumpyPete/StumpyPete_leg_upper_near
+  rotate: true
+  xy: 428, 781
+  size: 74, 153
+  orig: 177, 271
+  offset: 50, 52
+  index: -1
+StumpyPete/StumpyPete_machineGun
+  rotate: true
+  xy: 2, 770
+  size: 660, 424
+  orig: 660, 424
+  offset: 0, 0
+  index: -1
+StumpyPete/StumpyPete_machineGun_clip
+  rotate: false
+  xy: 1603, 1515
+  size: 238, 210
+  orig: 238, 210
+  offset: 0, 0
+  index: -1
+StumpyPete/StumpyPete_machineGun_shoot
+  rotate: false
+  xy: 607, 1612
+  size: 660, 424
+  orig: 660, 424
+  offset: 0, 0
+  index: -1
+StumpyPete/StumpyPete_neck
+  rotate: false
+  xy: 686, 796
+  size: 75, 80
+  orig: 130, 110
+  offset: 30, 19
+  index: -1
+StumpyPete/StumpyPete_pistol
+  rotate: true
+  xy: 920, 931
+  size: 272, 154
+  orig: 461, 323
+  offset: 126, 53
+  index: -1
+StumpyPete/StumpyPete_pistol_shoot
+  rotate: false
+  xy: 2, 2
+  size: 333, 174
+  orig: 461, 323
+  offset: 127, 53
+  index: -1
+StumpyPete/StumpyPete_sword_1
+  rotate: false
+  xy: 428, 857
+  size: 150, 573
+  orig: 512, 880
+  offset: 179, 93
+  index: -1
+StumpyPete/StumpyPete_sword_2_swing
+  rotate: false
+  xy: 2, 178
+  size: 308, 590
+  orig: 770, 878
+  offset: 278, 92
+  index: -1
+StumpyPete/StumpyPete_sword_3_bigSwing
+  rotate: false
+  xy: 2, 1432
+  size: 603, 604
+  orig: 1014, 879
+  offset: 228, 92
+  index: -1
+StumpyPete/StumpyPete_torso
+  rotate: false
+  xy: 1036, 1415
+  size: 221, 195
+  orig: 512, 452
+  offset: 155, 104
+  index: -1
+StumpyPete/StumpyPete_waist
+  rotate: true
+  xy: 1946, 1830
+  size: 206, 90
+  orig: 283, 216
+  offset: 57, 48
+  index: -1

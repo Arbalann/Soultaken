@@ -1,0 +1,265 @@
+
+DuckMatthews.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DuckMatthews/DuckMatthews_arm_lower_far
+  rotate: true
+  xy: 1847, 4
+  size: 75, 111
+  orig: 259, 209
+  offset: 86, 50
+  index: -1
+DuckMatthews/DuckMatthews_arm_lower_near
+  rotate: false
+  xy: 950, 130
+  size: 88, 124
+  orig: 258, 208
+  offset: 82, 44
+  index: -1
+DuckMatthews/DuckMatthews_arm_upper_far
+  rotate: true
+  xy: 1403, 2
+  size: 94, 180
+  orig: 299, 282
+  offset: 103, 49
+  index: -1
+DuckMatthews/DuckMatthews_arm_upper_near
+  rotate: true
+  xy: 809, 17
+  size: 94, 180
+  orig: 299, 282
+  offset: 103, 49
+  index: -1
+DuckMatthews/DuckMatthews_foot_far_1
+  rotate: false
+  xy: 639, 2
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+DuckMatthews/DuckMatthews_foot_near_1
+  rotate: false
+  xy: 639, 2
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+DuckMatthews/DuckMatthews_foot_far_2_bent
+  rotate: false
+  xy: 780, 113
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+DuckMatthews/DuckMatthews_foot_near_2_bent
+  rotate: false
+  xy: 780, 113
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+DuckMatthews/DuckMatthews_gun
+  rotate: true
+  xy: 1403, 98
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+DuckMatthews/DuckMatthews_gun_shoot
+  rotate: true
+  xy: 1224, 32
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+DuckMatthews/DuckMatthews_hand_far_1_fistBack
+  rotate: true
+  xy: 991, 15
+  size: 113, 91
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+DuckMatthews/DuckMatthews_hand_far_2_fistPalm
+  rotate: true
+  xy: 1021, 325
+  size: 101, 93
+  orig: 203, 160
+  offset: 52, 39
+  index: -1
+DuckMatthews/DuckMatthews_hand_far_3_open
+  rotate: false
+  xy: 639, 86
+  size: 139, 139
+  orig: 233, 220
+  offset: 47, 42
+  index: -1
+DuckMatthews/DuckMatthews_hand_near_3_open
+  rotate: false
+  xy: 639, 86
+  size: 139, 139
+  orig: 233, 220
+  offset: 47, 42
+  index: -1
+DuckMatthews/DuckMatthews_hand_near_1_fistBack
+  rotate: false
+  xy: 1732, 41
+  size: 113, 104
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+DuckMatthews/DuckMatthews_hand_near_2_fistPalm
+  rotate: false
+  xy: 1040, 230
+  size: 101, 93
+  orig: 203, 160
+  offset: 52, 39
+  index: -1
+DuckMatthews/DuckMatthews_head_1
+  rotate: false
+  xy: 1657, 684
+  size: 355, 338
+  orig: 543, 543
+  offset: 123, 53
+  index: -1
+DuckMatthews/DuckMatthews_head_2_injured
+  rotate: false
+  xy: 1298, 681
+  size: 357, 341
+  orig: 543, 543
+  offset: 124, 54
+  index: -1
+DuckMatthews/DuckMatthews_head_3_happy
+  rotate: true
+  xy: 597, 666
+  size: 356, 354
+  orig: 543, 543
+  offset: 125, 40
+  index: -1
+DuckMatthews/DuckMatthews_head_4_wideEyes
+  rotate: false
+  xy: 1576, 341
+  size: 356, 338
+  orig: 543, 543
+  offset: 125, 47
+  index: -1
+DuckMatthews/DuckMatthews_head_5_sad
+  rotate: true
+  xy: 953, 666
+  size: 356, 343
+  orig: 543, 543
+  offset: 125, 42
+  index: -1
+DuckMatthews/DuckMatthews_leg_lower_far
+  rotate: false
+  xy: 1934, 495
+  size: 105, 187
+  orig: 194, 325
+  offset: 46, 77
+  index: -1
+DuckMatthews/DuckMatthews_leg_lower_near_2
+  rotate: false
+  xy: 1934, 495
+  size: 105, 187
+  orig: 194, 325
+  offset: 46, 77
+  index: -1
+DuckMatthews/DuckMatthews_leg_lower_near_1
+  rotate: false
+  xy: 1934, 315
+  size: 106, 178
+  orig: 194, 325
+  offset: 43, 73
+  index: -1
+DuckMatthews/DuckMatthews_leg_upper_far
+  rotate: false
+  xy: 921, 256
+  size: 98, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+DuckMatthews/DuckMatthews_leg_upper_near
+  rotate: false
+  xy: 820, 256
+  size: 99, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+DuckMatthews/DuckMatthews_machineGun
+  rotate: false
+  xy: 1137, 503
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+DuckMatthews/DuckMatthews_machineGun_clip
+  rotate: false
+  xy: 1116, 334
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+DuckMatthews/DuckMatthews_machineGun_shoot
+  rotate: false
+  xy: 597, 503
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+DuckMatthews/DuckMatthews_neck
+  rotate: true
+  xy: 2, 6
+  size: 68, 57
+  orig: 130, 110
+  offset: 34, 30
+  index: -1
+DuckMatthews/DuckMatthews_pistol
+  rotate: true
+  xy: 1860, 81
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+DuckMatthews/DuckMatthews_pistol_shoot
+  rotate: false
+  xy: 1565, 147
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+DuckMatthews/DuckMatthews_sword_1
+  rotate: true
+  xy: 597, 428
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+DuckMatthews/DuckMatthews_sword_2_swing
+  rotate: true
+  xy: 2, 76
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+DuckMatthews/DuckMatthews_sword_3_bigSwing
+  rotate: true
+  xy: 2, 408
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+DuckMatthews/DuckMatthews_torso
+  rotate: false
+  xy: 639, 227
+  size: 179, 199
+  orig: 512, 452
+  offset: 169, 110
+  index: -1
+DuckMatthews/DuckMatthews_waist
+  rotate: true
+  xy: 1585, 9
+  size: 136, 145
+  orig: 283, 216
+  offset: 75, 37
+  index: -1

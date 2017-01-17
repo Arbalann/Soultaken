@@ -1,0 +1,265 @@
+
+ChuckMatthews.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ChuckMatthews/ChuckMatthews_arm_lower_far
+  rotate: true
+  xy: 1196, 273
+  size: 70, 111
+  orig: 259, 209
+  offset: 91, 50
+  index: -1
+ChuckMatthews/ChuckMatthews_arm_lower_near
+  rotate: false
+  xy: 907, 243
+  size: 77, 125
+  orig: 258, 208
+  offset: 87, 43
+  index: -1
+ChuckMatthews/ChuckMatthews_arm_upper_far
+  rotate: true
+  xy: 2, 2
+  size: 98, 179
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+ChuckMatthews/ChuckMatthews_arm_upper_near
+  rotate: true
+  xy: 183, 2
+  size: 98, 179
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+ChuckMatthews/ChuckMatthews_foot_far_1
+  rotate: false
+  xy: 780, 370
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+ChuckMatthews/ChuckMatthews_foot_near_1
+  rotate: false
+  xy: 780, 370
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+ChuckMatthews/ChuckMatthews_foot_far_2_bent
+  rotate: false
+  xy: 1554, 542
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+ChuckMatthews/ChuckMatthews_foot_near_2_bent
+  rotate: false
+  xy: 1554, 542
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+ChuckMatthews/ChuckMatthews_gun
+  rotate: false
+  xy: 618, 454
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+ChuckMatthews/ChuckMatthews_gun_shoot
+  rotate: false
+  xy: 1255, 844
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+ChuckMatthews/ChuckMatthews_hand_far_1_fistBack
+  rotate: false
+  xy: 1309, 263
+  size: 102, 80
+  orig: 203, 160
+  offset: 53, 47
+  index: -1
+ChuckMatthews/ChuckMatthews_hand_far_2_fistPalm
+  rotate: false
+  xy: 986, 189
+  size: 93, 84
+  orig: 203, 160
+  offset: 56, 43
+  index: -1
+ChuckMatthews/ChuckMatthews_hand_far_3_open
+  rotate: true
+  xy: 780, 250
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+ChuckMatthews/ChuckMatthews_hand_near_3_open
+  rotate: true
+  xy: 780, 250
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+ChuckMatthews/ChuckMatthews_hand_near_1_fistBack
+  rotate: false
+  xy: 986, 275
+  size: 113, 105
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+ChuckMatthews/ChuckMatthews_hand_near_2_fistPalm
+  rotate: true
+  xy: 1101, 279
+  size: 101, 93
+  orig: 203, 160
+  offset: 52, 39
+  index: -1
+ChuckMatthews/ChuckMatthews_head_1
+  rotate: true
+  xy: 1200, 345
+  size: 245, 284
+  orig: 543, 543
+  offset: 159, 36
+  index: -1
+ChuckMatthews/ChuckMatthews_head_2_injured
+  rotate: true
+  xy: 1726, 762
+  size: 259, 297
+  orig: 543, 543
+  offset: 159, 23
+  index: -1
+ChuckMatthews/ChuckMatthews_head_3_happy
+  rotate: true
+  xy: 1255, 592
+  size: 250, 297
+  orig: 543, 543
+  offset: 160, 22
+  index: -1
+ChuckMatthews/ChuckMatthews_head_4_wideEyes
+  rotate: false
+  xy: 1486, 257
+  size: 245, 283
+  orig: 543, 543
+  offset: 153, 38
+  index: -1
+ChuckMatthews/ChuckMatthews_head_5_sad
+  rotate: false
+  xy: 1733, 284
+  size: 246, 282
+  orig: 543, 543
+  offset: 158, 41
+  index: -1
+ChuckMatthews/ChuckMatthews_leg_lower_far
+  rotate: false
+  xy: 441, 75
+  size: 106, 188
+  orig: 194, 325
+  offset: 42, 75
+  index: -1
+ChuckMatthews/ChuckMatthews_leg_lower_near_2
+  rotate: false
+  xy: 441, 75
+  size: 106, 188
+  orig: 194, 325
+  offset: 42, 75
+  index: -1
+ChuckMatthews/ChuckMatthews_leg_lower_near_1
+  rotate: false
+  xy: 549, 102
+  size: 106, 177
+  orig: 194, 325
+  offset: 46, 77
+  index: -1
+ChuckMatthews/ChuckMatthews_leg_upper_far
+  rotate: false
+  xy: 680, 282
+  size: 98, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+ChuckMatthews/ChuckMatthews_leg_upper_near
+  rotate: false
+  xy: 680, 282
+  size: 98, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+ChuckMatthews/ChuckMatthews_machineGun
+  rotate: false
+  xy: 2, 102
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+ChuckMatthews/ChuckMatthews_machineGun_clip
+  rotate: true
+  xy: 1733, 193
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+ChuckMatthews/ChuckMatthews_machineGun_shoot
+  rotate: false
+  xy: 2, 265
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+ChuckMatthews/ChuckMatthews_neck
+  rotate: false
+  xy: 364, 40
+  size: 69, 60
+  orig: 130, 110
+  offset: 31, 27
+  index: -1
+ChuckMatthews/ChuckMatthews_pistol
+  rotate: true
+  xy: 1023, 382
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+ChuckMatthews/ChuckMatthews_pistol_shoot
+  rotate: false
+  xy: 1724, 568
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+ChuckMatthews/ChuckMatthews_sword_1
+  rotate: true
+  xy: 618, 616
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+ChuckMatthews/ChuckMatthews_sword_2_swing
+  rotate: true
+  xy: 618, 691
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+ChuckMatthews/ChuckMatthews_sword_3_bigSwing
+  rotate: false
+  xy: 2, 428
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+ChuckMatthews/ChuckMatthews_torso
+  rotate: false
+  xy: 1554, 656
+  size: 168, 186
+  orig: 512, 452
+  offset: 170, 117
+  index: -1
+ChuckMatthews/ChuckMatthews_waist
+  rotate: false
+  xy: 542, 281
+  size: 136, 145
+  orig: 283, 216
+  offset: 75, 37
+  index: -1

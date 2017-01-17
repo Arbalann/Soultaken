@@ -1,0 +1,265 @@
+
+BeardyBuck.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BeardyBuck/BeardyBuck_arm_lower_far
+  rotate: false
+  xy: 2, 2
+  size: 70, 111
+  orig: 259, 209
+  offset: 91, 50
+  index: -1
+BeardyBuck/BeardyBuck_arm_lower_near
+  rotate: false
+  xy: 1458, 1328
+  size: 77, 125
+  orig: 258, 208
+  offset: 87, 43
+  index: -1
+BeardyBuck/BeardyBuck_arm_upper_far
+  rotate: true
+  xy: 637, 985
+  size: 98, 179
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+BeardyBuck/BeardyBuck_arm_upper_near
+  rotate: true
+  xy: 940, 1153
+  size: 299, 282
+  orig: 299, 282
+  offset: 0, 0
+  index: -1
+BeardyBuck/BeardyBuck_foot_far_1
+  rotate: true
+  xy: 1527, 1470
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+BeardyBuck/BeardyBuck_foot_near_1
+  rotate: true
+  xy: 1527, 1470
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+BeardyBuck/BeardyBuck_foot_far_2_bent
+  rotate: false
+  xy: 1627, 1698
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+BeardyBuck/BeardyBuck_foot_near_2_bent
+  rotate: false
+  xy: 1627, 1698
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+BeardyBuck/BeardyBuck_gun
+  rotate: false
+  xy: 1597, 1812
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+BeardyBuck/BeardyBuck_gun_shoot
+  rotate: true
+  xy: 77, 271
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+BeardyBuck/BeardyBuck_hand_far_1_fistBack
+  rotate: false
+  xy: 256, 278
+  size: 113, 89
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+BeardyBuck/BeardyBuck_hand_far_2_fistPalm
+  rotate: false
+  xy: 74, 6
+  size: 101, 93
+  orig: 203, 160
+  offset: 52, 39
+  index: -1
+BeardyBuck/BeardyBuck_hand_far_3_open
+  rotate: true
+  xy: 818, 965
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+BeardyBuck/BeardyBuck_hand_near_3_open
+  rotate: true
+  xy: 818, 965
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+BeardyBuck/BeardyBuck_hand_near_1_fistBack
+  rotate: true
+  xy: 261, 163
+  size: 113, 105
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+BeardyBuck/BeardyBuck_hand_near_2_fistPalm
+  rotate: false
+  xy: 177, 6
+  size: 101, 93
+  orig: 203, 160
+  offset: 53, 33
+  index: -1
+BeardyBuck/BeardyBuck_head_1
+  rotate: false
+  xy: 1224, 1455
+  size: 301, 354
+  orig: 543, 543
+  offset: 118, 21
+  index: -1
+BeardyBuck/BeardyBuck_head_2_injured
+  rotate: false
+  xy: 618, 1441
+  size: 301, 368
+  orig: 543, 543
+  offset: 117, 20
+  index: -1
+BeardyBuck/BeardyBuck_head_3_happy
+  rotate: false
+  xy: 334, 1009
+  size: 301, 368
+  orig: 543, 543
+  offset: 116, 16
+  index: -1
+BeardyBuck/BeardyBuck_head_4_wideEyes
+  rotate: false
+  xy: 921, 1454
+  size: 301, 355
+  orig: 543, 543
+  offset: 117, 32
+  index: -1
+BeardyBuck/BeardyBuck_head_5_sad
+  rotate: false
+  xy: 637, 1085
+  size: 301, 354
+  orig: 543, 543
+  offset: 119, 31
+  index: -1
+BeardyBuck/BeardyBuck_leg_lower_far
+  rotate: false
+  xy: 256, 369
+  size: 107, 181
+  orig: 194, 325
+  offset: 49, 79
+  index: -1
+BeardyBuck/BeardyBuck_leg_lower_near_1
+  rotate: true
+  xy: 1224, 1163
+  size: 113, 187
+  orig: 194, 325
+  offset: 46, 69
+  index: -1
+BeardyBuck/BeardyBuck_leg_lower_near_2
+  rotate: false
+  xy: 256, 552
+  size: 104, 188
+  orig: 104, 188
+  offset: 0, 0
+  index: -1
+BeardyBuck/BeardyBuck_leg_upper_far
+  rotate: false
+  xy: 1527, 1640
+  size: 98, 169
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+BeardyBuck/BeardyBuck_leg_upper_near
+  rotate: true
+  xy: 1797, 1711
+  size: 99, 169
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+BeardyBuck/BeardyBuck_machineGun
+  rotate: false
+  xy: 1158, 1811
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+BeardyBuck/BeardyBuck_machineGun_clip
+  rotate: false
+  xy: 1537, 1376
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+BeardyBuck/BeardyBuck_machineGun_shoot
+  rotate: false
+  xy: 618, 1811
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+BeardyBuck/BeardyBuck_neck
+  rotate: false
+  xy: 261, 101
+  size: 69, 60
+  orig: 130, 110
+  offset: 31, 27
+  index: -1
+BeardyBuck/BeardyBuck_pistol
+  rotate: false
+  xy: 1224, 1278
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+BeardyBuck/BeardyBuck_pistol_shoot
+  rotate: false
+  xy: 334, 815
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+BeardyBuck/BeardyBuck_sword_1
+  rotate: false
+  xy: 2, 115
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+BeardyBuck/BeardyBuck_sword_2_swing
+  rotate: false
+  xy: 2, 742
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+BeardyBuck/BeardyBuck_sword_3_bigSwing
+  rotate: false
+  xy: 2, 1379
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+BeardyBuck/BeardyBuck_torso
+  rotate: true
+  xy: 77, 101
+  size: 168, 182
+  orig: 512, 452
+  offset: 170, 118
+  index: -1
+BeardyBuck/BeardyBuck_waist
+  rotate: false
+  xy: 629, 838
+  size: 136, 145
+  orig: 283, 216
+  offset: 75, 37
+  index: -1

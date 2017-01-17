@@ -1,0 +1,237 @@
+
+Dummy.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Dummy/Dummy_arm_lower_far
+  rotate: true
+  xy: 623, 245
+  size: 72, 114
+  orig: 72, 114
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_arm_lower_near
+  rotate: true
+  xy: 1773, 280
+  size: 79, 126
+  orig: 79, 126
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_arm_upper_far
+  rotate: true
+  xy: 2, 2
+  size: 99, 180
+  orig: 99, 180
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_arm_upper_near
+  rotate: true
+  xy: 184, 2
+  size: 99, 180
+  orig: 99, 180
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_foot_far_1
+  rotate: true
+  xy: 540, 259
+  size: 167, 81
+  orig: 167, 81
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_foot_far_2_bent
+  rotate: false
+  xy: 760, 346
+  size: 157, 109
+  orig: 157, 109
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_foot_near_1
+  rotate: true
+  xy: 539, 89
+  size: 168, 80
+  orig: 168, 80
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_foot_near_2_bent
+  rotate: false
+  xy: 1034, 338
+  size: 157, 109
+  orig: 157, 109
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_gun
+  rotate: false
+  xy: 2, 103
+  size: 402, 160
+  orig: 402, 160
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_gun_shoot
+  rotate: false
+  xy: 1255, 844
+  size: 468, 177
+  orig: 468, 177
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_hand_1_fistBack
+  rotate: true
+  xy: 1970, 573
+  size: 94, 73
+  orig: 94, 73
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_hand_2_fistPalm
+  rotate: false
+  xy: 621, 71
+  size: 83, 77
+  orig: 83, 77
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_hand_3_open
+  rotate: false
+  xy: 919, 345
+  size: 113, 110
+  orig: 113, 110
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_head_1
+  rotate: false
+  xy: 1703, 567
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_head_2_injured
+  rotate: false
+  xy: 1239, 310
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_head_3_happy
+  rotate: true
+  xy: 1255, 577
+  size: 265, 269
+  orig: 265, 269
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_head_4_wideEyes
+  rotate: false
+  xy: 1506, 300
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_lower_far
+  rotate: false
+  xy: 406, 85
+  size: 131, 178
+  orig: 131, 178
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_lower_near_1
+  rotate: false
+  xy: 1773, 361
+  size: 131, 204
+  orig: 131, 204
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_lower_near_2
+  rotate: false
+  xy: 1906, 387
+  size: 131, 178
+  orig: 131, 178
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_upper_far
+  rotate: false
+  xy: 1970, 669
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_upper_near
+  rotate: false
+  xy: 1970, 669
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_machineGun
+  rotate: false
+  xy: 617, 457
+  size: 437, 161
+  orig: 437, 161
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_machineGun_clip
+  rotate: false
+  xy: 621, 150
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_machineGun_shoot
+  rotate: false
+  xy: 2, 265
+  size: 536, 161
+  orig: 536, 161
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_neck
+  rotate: true
+  xy: 711, 173
+  size: 70, 62
+  orig: 70, 62
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_pistol
+  rotate: true
+  xy: 1526, 611
+  size: 231, 175
+  orig: 231, 175
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_pistol_shoot
+  rotate: false
+  xy: 1725, 834
+  size: 297, 187
+  orig: 297, 187
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_sword_1
+  rotate: true
+  xy: 617, 620
+  size: 72, 626
+  orig: 72, 626
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_sword_2_swing
+  rotate: true
+  xy: 617, 694
+  size: 327, 636
+  orig: 327, 636
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_sword_3_bigSwing
+  rotate: false
+  xy: 2, 428
+  size: 613, 593
+  orig: 613, 593
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_torso
+  rotate: true
+  xy: 1056, 449
+  size: 169, 181
+  orig: 169, 181
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_waist
+  rotate: false
+  xy: 623, 319
+  size: 135, 136
+  orig: 135, 136
+  offset: 0, 0
+  index: -1
