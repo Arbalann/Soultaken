@@ -17,6 +17,8 @@ public class Controller2D : MonoBehaviour
     private float X_SMOOTHING_GROUND;
     [SerializeField]
     private float X_SMOOTHING_AIRBORNE;
+    [SerializeField]
+    private float MAX_CLIMBABLE_SLOPE;
 
     private float gravity;
     private float jumpSpeed;
@@ -77,7 +79,7 @@ public class Controller2D : MonoBehaviour
 
         for (int i = 0; i < 10; i++)
         { 
-            hit = Physics2D.BoxCast(bounds.center, bounds.size, 0f, currentVelocity, currentVelocity.magnitude + SKIN_WIDTH*10, TERRAIN_LAYER);
+            hit = Physics2D.BoxCast(bounds.center, bounds.size, 0f, currentVelocity, currentVelocity.magnitude + SKIN_WIDTH, TERRAIN_LAYER);
             if (hit.collider == null) return;
 
             Vector2 distanceToHit = hit.centroid - (Vector2)bounds.center;
@@ -85,7 +87,7 @@ public class Controller2D : MonoBehaviour
             float slopeOfCollider = hit.normal.x / hit.normal.y;
 
             // Hit floor or ceiling
-            if (Mathf.Abs(slopeOfCollider) <= 1f)
+            if (Mathf.Abs(slopeOfCollider) <= MAX_CLIMBABLE_SLOPE)
             {
                 currentVelocity.y = distanceToHit.y;
                 currentVelocity.y += distanceAfterHit.x * -slopeOfCollider;
@@ -95,6 +97,7 @@ public class Controller2D : MonoBehaviour
                 {
                     velocity.y = 0;
                     state.grounded = true;
+                    state.groundSlope = slopeOfCollider;
                 }
                 else if (velocity.y > 0)
                 {
@@ -105,6 +108,11 @@ public class Controller2D : MonoBehaviour
             // Hit wall
             else
             {
+                if (state.grounded)
+                {
+                    currentVelocity.y -= distanceAfterHit.x * -state.groundSlope;
+                }
+
                 currentVelocity.x = distanceToHit.x;
                 currentVelocity.x += distanceAfterHit.y / -slopeOfCollider;
                 currentVelocity.x += SKIN_WIDTH * Mathf.Sign(hit.normal.x);
@@ -116,11 +124,13 @@ public class Controller2D : MonoBehaviour
     struct CollisionState
     {
         public bool grounded;
+        public float groundSlope;
         public bool jumping;
 
         public void Reset()
         {
             grounded = false;
+            groundSlope = 0;
         }
     }
 }
