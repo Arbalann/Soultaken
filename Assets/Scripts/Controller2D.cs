@@ -1,32 +1,47 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(BoxCollider2D))]
 public class Controller2D : MonoBehaviour
 {
     [SerializeField]
-    private float GRAVITY = -20;
+    private float JUMP_HEIGHT;
     [SerializeField]
-    private float SPEED = 7;
+    private float JUMP_TIME_TO_APEX;
     [SerializeField]
-    private float SKIN_WIDTH = .01f;
+    private float SPEED;
+    [SerializeField]
+    private float SKIN_WIDTH;
     [SerializeField]
     private LayerMask TERRAIN_LAYER;
+    [SerializeField]
+    private float X_SMOOTHING_GROUND;
+    [SerializeField]
+    private float X_SMOOTHING_AIRBORNE;
+
+    private float gravity;
+    private float jumpSpeed;
+    private float smoothVelocityX;
 
     Vector2 velocity;
-
+    CollisionState state;
     BoxCollider2D body;
 
     void Start()
     {
+        gravity = (2 * JUMP_HEIGHT) / Mathf.Pow(JUMP_TIME_TO_APEX, 2);
+        jumpSpeed = gravity * JUMP_TIME_TO_APEX;
+
+        state = new CollisionState();
         body = GetComponent<BoxCollider2D>();
     }
 
-    public void Move(Vector2 direction)
-    {       
+    public void Move(Vector2 input)
+    {
+
         ApplyAccelerationForces();
-        ApplyConstantMovement(direction);
+        ApplyConstantMovement(input);
+
+        state.Reset();
 
         Vector2 currentVelocity = velocity * Time.deltaTime;
         CheckCollisions(ref currentVelocity);
@@ -37,46 +52,75 @@ public class Controller2D : MonoBehaviour
 
     void ApplyAccelerationForces()
     {
-        velocity.y += GRAVITY / 2 * Time.deltaTime;
+        velocity.y -= gravity / 2 * Time.deltaTime;
     }
 
-    void ApplyConstantMovement(Vector2 direction)
+    void ApplyConstantMovement(Vector2 input)
     {
-        velocity.x = direction.x * SPEED;
+        float targetVelocityX = input.x * SPEED;
+        velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocityX, ref smoothVelocityX, 
+            state.grounded ? X_SMOOTHING_GROUND : X_SMOOTHING_AIRBORNE);
+
+        if (state.grounded && input.y == 1)
+        {
+            velocity.y = jumpSpeed;
+            state.jumping = true;
+        }
     }
 
     void CheckCollisions(ref Vector2 currentVelocity)
     {
         Bounds bounds = body.bounds;
-        bounds.Expand(SKIN_WIDTH * -2);
+        bounds.Expand(SKIN_WIDTH * -2f);
 
         RaycastHit2D hit;
 
-        if (currentVelocity.x != 0f)
-        {
-            Vector2 direction = currentVelocity.x > 0 ? Vector2.right : Vector2.left;
-            hit = Physics2D.BoxCast(bounds.center, bounds.size, 0f, direction, Mathf.Abs(currentVelocity.x) + SKIN_WIDTH, TERRAIN_LAYER);
-            if (hit.collider != null)
-            {
-                Vector2 distanceToHit = hit.centroid - (Vector2)bounds.center;
+        for (int i = 0; i < 10; i++)
+        { 
+            hit = Physics2D.BoxCast(bounds.center, bounds.size, 0f, currentVelocity, currentVelocity.magnitude + SKIN_WIDTH*10, TERRAIN_LAYER);
+            if (hit.collider == null) return;
 
+            Vector2 distanceToHit = hit.centroid - (Vector2)bounds.center;
+            Vector2 distanceAfterHit = currentVelocity - distanceToHit;
+            float slopeOfCollider = hit.normal.x / hit.normal.y;
+
+            // Hit floor or ceiling
+            if (Mathf.Abs(slopeOfCollider) <= 1f)
+            {
+                currentVelocity.y = distanceToHit.y;
+                currentVelocity.y += distanceAfterHit.x * -slopeOfCollider;
+                currentVelocity.y += SKIN_WIDTH * Mathf.Sign(hit.normal.y);
+
+                if (hit.normal.y > 0)
+                {
+                    velocity.y = 0;
+                    state.grounded = true;
+                }
+                else if (velocity.y > 0)
+                {
+                    velocity.y = 0;
+                }
+            }
+
+            // Hit wall
+            else
+            {
+                currentVelocity.x = distanceToHit.x;
+                currentVelocity.x += distanceAfterHit.y / -slopeOfCollider;
+                currentVelocity.x += SKIN_WIDTH * Mathf.Sign(hit.normal.x);
                 velocity.x = 0;
-                currentVelocity.x = distanceToHit.x - (SKIN_WIDTH * Mathf.Sign(distanceToHit.x));
             }
         }
+    }
 
+    struct CollisionState
+    {
+        public bool grounded;
+        public bool jumping;
 
-        if (currentVelocity.y != 0f)
+        public void Reset()
         {
-            Vector2 direction = currentVelocity.y > 0 ? Vector2.up : Vector2.down;
-            hit = Physics2D.BoxCast(bounds.center, bounds.size, 0f, direction, Mathf.Abs(currentVelocity.y) + SKIN_WIDTH, TERRAIN_LAYER);
-            if (hit.collider != null)
-            {
-                Vector2 distanceToHit = hit.centroid - (Vector2)bounds.center;
-
-                velocity.y = 0;
-                currentVelocity.y = distanceToHit.y - (SKIN_WIDTH * Mathf.Sign(distanceToHit.y));
-            }
+            grounded = false;
         }
     }
 }
