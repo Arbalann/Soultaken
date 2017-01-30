@@ -48,7 +48,7 @@ public class Controller2D : MonoBehaviour
         Vector2 currentVelocity = velocity * Time.deltaTime;
         CheckCollisions(ref currentVelocity);
         transform.Translate(currentVelocity);
-
+        
         ApplyAccelerationForces();
     }
 
@@ -72,14 +72,31 @@ public class Controller2D : MonoBehaviour
 
     void CheckCollisions(ref Vector2 currentVelocity)
     {
-        if (state.previouslyGrounded)
-        {
-            currentVelocity.y = currentVelocity.x * -state.previousSlope;
-        }
 
         // Get body border and reduce it by skin size
         Bounds bounds = body.bounds;
         bounds.Expand(SKIN_WIDTH * -2f);
+
+        // This will do a raycast if last frame we were grounded to glue us to the ground so we don't bounce on downslopes
+        if (state.previouslyGrounded && velocity.y != jumpSpeed)
+        {
+            Vector2 rayOrigin;
+            if (state.previousSlope == 0f)
+            {
+                rayOrigin = new Vector2(Mathf.Sign(currentVelocity.x) == -1 ? bounds.max.x : bounds.min.x, bounds.min.y);
+            }
+            else
+            {
+                rayOrigin = new Vector2(Mathf.Sign(state.previousSlope) == -1 ? bounds.max.x : bounds.min.x, bounds.min.y);
+            }
+
+            RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.down, 1f + SKIN_WIDTH, TERRAIN_LAYER);
+
+            if (hit.collider != null)
+            {
+                currentVelocity.y = -1f;
+            }
+        }
         
         // Run collision detection until we don't hit anything, limit to 10 times in case we get stuck in a wall
         for (int i = 0; i < 10; i++)
@@ -200,7 +217,6 @@ public class Controller2D : MonoBehaviour
             ceilingCollision = false;
             leftCollision = false;
             rightCollision = false;
-            groundSlope = 0;
 
         }
     }
