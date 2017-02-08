@@ -4,7 +4,9 @@
 public class Controller2D : MonoBehaviour
 {
     [SerializeField]
-    private float JUMP_HEIGHT;
+    private float MIN_JUMP_HEIGHT;
+    [SerializeField]
+    private float MAX_JUMP_HEIGHT;
     [SerializeField]
     private float JUMP_TIME_TO_APEX;
     [SerializeField]
@@ -21,7 +23,8 @@ public class Controller2D : MonoBehaviour
     private float MAX_CLIMBABLE_SLOPE;
 
     private float gravity;
-    private float jumpSpeed;
+    private float maxJumpSpeed;
+    private float minJumpSpeed;
     private float smoothVelocityX;
 
     Vector2 velocity;
@@ -30,8 +33,9 @@ public class Controller2D : MonoBehaviour
 
     void Start()
     {
-        gravity = (2 * JUMP_HEIGHT) / Mathf.Pow(JUMP_TIME_TO_APEX, 2);
-        jumpSpeed = gravity * JUMP_TIME_TO_APEX;
+        gravity = (2 * MAX_JUMP_HEIGHT) / Mathf.Pow(JUMP_TIME_TO_APEX, 2);
+        maxJumpSpeed = gravity * JUMP_TIME_TO_APEX;
+        minJumpSpeed = Mathf.Sqrt(2 * Mathf.Abs(gravity) * MIN_JUMP_HEIGHT);
 
         state = new CollisionState();
         body = GetComponent<BoxCollider2D>();
@@ -65,8 +69,17 @@ public class Controller2D : MonoBehaviour
 
         if (state.grounded && input.y == 1)
         {
-            velocity.y = jumpSpeed;
+            velocity.y = maxJumpSpeed;
             state.jumping = true;
+        }
+
+        if (state.jumping && input.y != 1)
+        {
+            if (velocity.y > minJumpSpeed)
+            {
+                velocity.y = minJumpSpeed;
+            }
+            state.jumping = false;
         }
     }
 
@@ -78,7 +91,7 @@ public class Controller2D : MonoBehaviour
         bounds.Expand(SKIN_WIDTH * -2f);
 
         // This will do a raycast if last frame we were grounded to glue us to the ground so we don't bounce on downslopes
-        if (state.previouslyGrounded && velocity.y != jumpSpeed)
+        if (state.previouslyGrounded && velocity.y != maxJumpSpeed)
         {
             Vector2 rayOrigin;
             if (state.previousSlope == 0f)
