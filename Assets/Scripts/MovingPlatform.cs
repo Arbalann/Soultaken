@@ -12,18 +12,18 @@ public class MovingPlatform : MonoBehaviour
     {
         controller = GetComponent<Controller2D>();
     }
-	
+	    
 	void Update ()
     {
 
         if (transform.position.x > 20)
         {
-            direction = -.1f;
+            direction = -1f;
         }   
         else if (transform.position.x < -20)
         {
-            direction = .1f;
+            direction = 1f;
         }
-        transform.Translate(new Vector2(direction, 0));
+        controller.Move(new Vector2(direction, 0));
 	}
 }
